@@ -109,6 +109,11 @@ download_v2ray-core() {
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
             echo "$v2ray_ver/v2ray-$os_m 下载成功"
             ;;
+            "windows-arm")
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
+            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            ;;
             *)
             echo "全部下载成功"
             break
