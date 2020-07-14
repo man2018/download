@@ -23,7 +23,6 @@ download_v2ray-core() {
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.dgst
             echo "$os_m下载成功"
             ;;
-
             "dragonfly-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
