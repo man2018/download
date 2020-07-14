@@ -1,3 +1,4 @@
+Release
 dragonfly-64
 freebsd-32
 freebsd-64
