@@ -1,6 +1,3 @@
-Release
-Release.unsigned
-Release.unsigned.dgst
 dragonfly-64
 freebsd-32
 freebsd-64
