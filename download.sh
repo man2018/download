@@ -18,107 +18,107 @@ download_v2ray-core() {
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.unsigned
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.unsigned.dgst
-            echo "$os_m下载成功 $os_m.unsigned下载成功 $os_m.unsigned.dgst下载成功"
+            echo -en "\033[1;32m$os_m下载成功\033[0m"
             ;;
             "dragonfly-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "freebsd-32")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "freebsd-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-32")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-arm")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-arm64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-mips")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-mips64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-mips64le")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-mipsle")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-ppc64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-ppc64le")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "linux-s390x")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "macos")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "openbsd-32")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "openbsd-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "windows-32")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "windows-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             "windows-arm")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
-            echo "$v2ray_ver/v2ray-$os_m 下载成功"
+            echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             *)
             echo "全部下载成功"
