@@ -15,12 +15,12 @@ download_v2ray-core() {
     do
         case $os_m in
             "Release")
-            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m
             echo "$os_m下载成功"
             ;;
             "Release.unsigned")
-            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release.unsigned
-            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release.unsigned.dgst
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.dgst
             echo "$os_m下载成功"
             ;;
 
