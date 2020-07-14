@@ -14,6 +14,12 @@ download_v2ray-core() {
     os_m=$line
     do
         case $os_m in
+            "Release")
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.unsigned
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/$os_m.unsigned.dgst
+            echo "$os_m下载成功 $os_m.unsigned下载成功 $os_m.unsigned.dgst下载成功"
+            ;;
             "dragonfly-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
