@@ -9,13 +9,21 @@ if [ $? -ne 0 ];then
     wget https://raw.githubusercontent.com/man2018/download/master/v2ray_os_m.txt
 fi
 
-
-
 download_v2ray-core() {
     while read line
     os_m=$line
     do
         case $os_m in
+            "Release")
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release
+            echo "$os_m下载成功"
+            ;;
+            "Release.unsigned")
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release.unsigned
+            wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/Release.unsigned.dgst
+            echo "$os_m下载成功"
+            ;;
+
             "dragonfly-64")
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2ray/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
