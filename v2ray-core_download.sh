@@ -6,7 +6,7 @@ read v2ray_ver
 
 [ -f v2ray_os_m.txt ]
 if [ $? -ne 0 ];then
-    wget https://raw.githubusercontent.com/man2018/download/master/v2ray_os_m.txt
+    wget https://raw.githubusercontent.com/man2018/download-proxy-tools/master/v2ray_os_m.txt
 fi
 
 download_v2ray-core() {
