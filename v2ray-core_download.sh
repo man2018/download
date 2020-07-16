@@ -121,7 +121,7 @@ download_v2ray-core() {
             echo -en "\033[1;32m$v2ray_ver/v2ray-$os_m 下载成功\033[0m"
             ;;
             *)
-            echo "全部下载成功"
+            echo -en "\033[1;32m全部下载成功\033[0m\n"
             break
             ;;
         esac
