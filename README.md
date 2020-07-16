@@ -11,3 +11,5 @@
 - 获取v2rayN下载脚本 ```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/v2rayN_download.sh)``` 执行即可
 
 - 获取ClashX下载脚本```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/ClashX_download.sh)```执行即可
+
+- 获取cfw-dmg下载脚本```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/cfw-dmg_download.sh)```执行即可
