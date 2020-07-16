@@ -139,7 +139,8 @@ else
 fi
 
 mkdir v2ray-core-${v2ray_ver:1}
-mv v2ray-* v2ray-core-${v2ray_ver:1}
+mv *.zip v2ray-core-${v2ray_ver:1}
+mv *.dgst v2ray-core-${v2ray_ver:1}
 mv Release* v2ray-core-${v2ray_ver:1}
 echo "已经全部移动成功"
 rm -rf v2ray_os_m.txt
