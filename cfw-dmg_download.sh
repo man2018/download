@@ -10,6 +10,7 @@ if [ $? -ne 0 ];then
     wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$cfw_ver/Clash.for.Windows-$cfw_ver-win.7z
     wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$cfw_ver/Clash.for.Windows.Setup.$cfw_ver.exe
     wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$cfw_ver/Clash.for.Windows.Setup.$cfw_ver.dmg
+    wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$cfw_ver/Clash.for.Windows-$cfw_ver.dmg
     wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$cfw_ver/sha256sum
     echo -en "\033[1;32m${cfw_ver}版本的ClashX下载成功\033[0m"
 else
@@ -21,5 +22,6 @@ fi
 mkdir Clash.for.Windows-${cfw_ver}
 mv *.7z Clash.for.Windows-${cfw_ver}
 mv *.exe Clash.for.Windows-${cfw_ver}
+mv *.dmg Clash.for.Windows-${cfw_ver}
 mv sha256sum Clash.for.Windows-${cfw_ver}
 echo "已经全部移动成功"
