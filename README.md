@@ -15,3 +15,5 @@
 - 获取cfw-dmg下载脚本```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/cfw-dmg_download.sh)```执行即可
 
 - 获取Qv2ray下载脚本```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/Qv2ray_download.sh)``` 执行即可
+
+- 获取V2rayU下载脚本```bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/V2rayU_download.sh)``` 执行即可
