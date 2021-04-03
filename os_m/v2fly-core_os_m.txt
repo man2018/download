@@ -1,6 +1,6 @@
 Release
 Release.unsigned
-v2ray-android-arm64-v8a
+android-arm64-v8a
 v2ray-dragonfly-64
 v2ray-freebsd-32
 v2ray-freebsd-64
