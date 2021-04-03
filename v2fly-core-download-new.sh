@@ -33,6 +33,11 @@ download_v2ray-core() {
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
             echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
             ;;
+            "extra")
+            wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
+            wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
+            echo -en "\033[1;32m$v2ray_ver/v2ray-v2ray-$os_m 下载成功\033[0m"
+            ;;
             "freebsd-32")
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/v2ray-$os_m.zip.dgst
