@@ -143,7 +143,7 @@ download_v2fly-core() {
 [ -d v2fly-core-${v2ray_ver:1} ]
 if [ $? -ne 0 ];then
     echo "开始下载v2fly-core"
-    download_v2ray-core
+    download_v2fly-core
 else
     echo "v2ray-core${v2ray_ver:1} 目录已经存在，不执行下载"
     echo "已经退出程序..."
