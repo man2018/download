@@ -1,5 +1,4 @@
 Release
-Release.unsigned
 android-arm64-v8a
 dragonfly-64
 freebsd-32
