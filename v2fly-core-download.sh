@@ -2,7 +2,7 @@
 #下载v2ray-core最新版版本
 #v1.0 2020-06-21
 echo -en "\033[1;32m输入v2fly-core版本号，须如：v4.25.0: \033[0m"
-read v2fly_ver
+read v2ray_ver
 
 [ -f v2fly-core_os_m.txt ]
 if [ $? -ne 0 ];then
@@ -15,6 +15,7 @@ download_v2fly-core() {
     do
         case $os_m in
             "Release")
+            # https://github.com/v2fly/v2ray-core/releases/download/v4.36.2/v2ray-android-arm64-v8a.zip.dgst
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/$os_m
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/$os_m.dgst
             wget https://github.com/v2fly/v2ray-core/releases/download/$v2ray_ver/$os_m.unsigned
@@ -139,19 +140,19 @@ download_v2fly-core() {
     done < v2fly-core_os_m.txt
 }
 
-[ -d v2fly-core-${v2fly_ver:1} ]
+[ -d v2fly-core-${v2ray_ver:1} ]
 if [ $? -ne 0 ];then
     echo "开始下载v2fly-core"
     download_v2ray-core
 else
-    echo "v2ray-core${v2fly_ver:1} 目录已经存在，不执行下载"
+    echo "v2ray-core${v2ray_ver:1} 目录已经存在，不执行下载"
     echo "已经退出程序..."
     exit
 fi
 
-mkdir v2fly-core-${v2fly_ver:1}
-mv *.zip v2fly-core-${v2fly_ver:1}
-mv *.dgst v2fly-core-${v2fly_ver:1}
-mv Release* v2fly-core-${v2fly_ver:1}
+mkdir v2fly-core-${v2ray_ver:1}
+mv *.zip v2fly-core-${v2ray_ver:1}
+mv *.dgst v2fly-core-${v2ray_ver:1}
+mv Release* v2fly-core-${v2ray_ver:1}
 echo "已经全部移动成功"
 rm -rf v2fly-core_os_m.txt
