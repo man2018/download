@@ -161,4 +161,4 @@ mv *.zip v2ray-core-${v2ray_ver:1}
 mv *.dgst v2ray-core-${v2ray_ver:1}
 mv Release* v2ray-core-${v2ray_ver:1}
 echo "已经全部移动成功"
-rm -rf v2fly-core_os_m
+rm -rf v2fly-core_os_m.txt
