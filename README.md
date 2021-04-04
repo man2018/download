@@ -3,14 +3,19 @@
  - trojan-go
 
 **执行下面代码**
+- v2ray-core<code>(原v2ray社区版本)</code>下载脚本 
+```
+bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/v2ray-core_download.sh)
+```
+
 - v2ray-core<code>(v2fly版本）</code>下载脚本
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/v2fly-core-download-new.sh)
 ```
 
-- v2ray-core<code>(原v2ray社区版本)</code>下载脚本 
+- xray-core下载脚本
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/v2ray-core_download.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/man2018/download-proxy-tools/master/xray-core-download-new.sh)
 ```
 
 - v2rayNG下载脚本 
